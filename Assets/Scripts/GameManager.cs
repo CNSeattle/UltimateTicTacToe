@@ -43,7 +43,6 @@ public class GameManager : MonoBehaviour
     
 	void AnimateIndicator()
 	{
-		
 		//move the indicator based on screen width / height
 		
 		if (Screen.width > Screen.height)
@@ -53,8 +52,6 @@ public class GameManager : MonoBehaviour
 		{
 			indicator.transform.position = Vector3.Lerp(new Vector3(0, 5.4f,0), indicator.transform.position, 0.5f); // if screen taller than wide, indicator on right
 		}
-		
-		
 		
 		// check to see if the player's turn has changed
 		if(c_xPlayerTurn!=xPlayerTurn){
