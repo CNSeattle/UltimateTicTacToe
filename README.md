@@ -1,4 +1,6 @@
-# UltimateTicTacToe
+# This project was made by 2 Senseis working at Code Ninjas Seattle.
+
+## UltimateTicTacToe
 
 A version of Ultimate Tic Tac Toe, made in Unity.
 
